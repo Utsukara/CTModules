@@ -1,9 +1,4 @@
-# Objective:
-# The aim of this assignment is to assess your understanding and ability to implement 
-# Python modules, both built-in and custom, and to apply data handling techniques using 
-# Python's data structures and error handling. This assignment will help solidify your 
-# grasp on creating and using modules, as well as manipulating and processing data effectively 
-# in Python.
+import mood_responses
 
 # Task 1: Your Mood Today
 
@@ -19,3 +14,6 @@
 # mood = input("How are you feeling today? ")
 # print(mood_responses.mood_response(mood))
 # Expected Outcome: The program should be able to take a user's mood as input (e.g., happy, sad, excited) and return a corresponding custom message.
+
+mood = input("How are you feeling today? ")
+print(mood_responses.mood_response(mood))
